@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Hello World and Universe</h1><br/>
-      <img src="space1.jpeg" width="500" height="500"/>
+      <img src="/imgs/space1.jpeg" class="img" width="1000" height="500"/>
       <h2> Yo</h2> 
       <h6>Kristin and Emil</h6>
       <p>Testing123</p>
