@@ -3,27 +3,17 @@ import "./styles.css";
 
 export default function App() {
   return (
+    <body>
     <div className="App">
-      <h1>Hello World and Universe</h1><br/>
+      <h1>Hack to the Future</h1><br/>
       <img src="/imgs/space1.jpeg" class="img" width="1000" height="500"/>
-      <h2> Yo</h2> 
+      <h2>Educational Text Adventure Game</h2> 
       <h6>Kristin and Emil</h6>
-      <p>Testing123</p>
-      <h2>Start editing to see some magic happen!</h2>
-      <hr/>
-      <Button variant="outlined">Default</Button>
-      <Button variant="outlined" color="primary">
-        Primary
-      </Button>
-      <Button variant="outlined" color="secondary">
-        Secondary
-      </Button>
-      <Button variant="outlined" disabled>
-        Disabled
-      </Button>
-      <Button variant="outlined" color="primary" href="#outlined-buttons">
-        Link
-      </Button>
+      <p>Start the lesson below to begin</p>
+      <a href="lesson.html">
+        <button>Start Lesson</button>
+      </a>
     </div>
+    </body>
   );
 }
