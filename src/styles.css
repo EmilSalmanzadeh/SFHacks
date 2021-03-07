@@ -3,3 +3,18 @@
   text-align: center;
   color: blueviolet;
 }
+
+.container {
+  align-items: center;
+  float: center;
+}
+
+.Lower {
+  font-family: 'monaco', monospace;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  background-color: rebeccapurple;
+  padding-left: 50px;
+  padding-right: 50px;
+}
